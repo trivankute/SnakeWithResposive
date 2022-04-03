@@ -1,0 +1,122 @@
+
+.grid
+{
+    width:1200px;
+    max-width:100%;
+    margin: 0 auto;
+}
+html{
+    box-sizing: border-box;
+}
+#Note
+{
+    float:left;
+    text-align:center;
+}
+*
+{
+    box-sizing:inherit;
+}
+.lastPart{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+.Border1
+{
+    width:200px;
+    height:185px;
+    border:solid black;
+}
+.Border2
+{
+    width:200px;
+    height:160px;
+    border:solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+button{
+    width:60px;
+    height:60px;
+    border-radius:5px;
+    margin-bottom:5px;
+}
+.upperPart
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.upperPart-firstPart
+{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+#box
+{
+    width:460px;
+    display:flex;
+    flex-wrap: wrap;
+    border:solid black;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    top:20px;
+}
+.contain
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+}
+.square
+{
+    width:45px;height:45px;
+    border:solid black;
+}
+.ran
+{
+    background-color: blue;
+}
+.apple
+{
+    background-color: red;
+}
+.head
+{
+    background-color: pink;
+}
+@media (max-width:720px)
+{
+    #box{
+        width:275px;
+    }
+    .square{
+        width:27px;height:27px;
+    }
+    .Border1{
+        display:none;
+    }
+    .Border2{
+        width:270px;
+        height:160px;
+        margin-left:0px;
+    }
+    button{
+        width: 76px;
+        height: 66px;
+    }
+    #Note{
+        font-size:12px;
+    }
+    .upperPart>div>h4
+    {
+        display:none;
+    }
+}   
